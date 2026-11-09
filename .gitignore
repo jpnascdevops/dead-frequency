@@ -1,0 +1,29 @@
+# Node / Vite
+node_modules/
+dist/
+.vite/
+coverage/
+*.log
+
+# Environment/secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Local orchestrator state and secrets
+.ai/*.sqlite
+.ai/*.sqlite-*
+.ai/*.db
+.ai/runtime/
+tools/agent_orchestrator/.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/extensions.json
