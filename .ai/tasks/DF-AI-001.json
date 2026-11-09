@@ -1,0 +1,27 @@
+{
+  "id": "DF-AI-001",
+  "title": "Subscription-only multi-agent orchestration dry run",
+  "state": "backlog",
+  "owner_agent": null,
+  "review_agents": [
+    "codex",
+    "claude"
+  ],
+  "base_sha": null,
+  "head_sha": null,
+  "branch": null,
+  "acceptance_criteria": [
+    "Inventory current source and CLI capabilities without exposing secrets",
+    "Prove fresh-session shared context recovery",
+    "Prove SHA-bound, independent read-only code reviews",
+    "Prove quota-safe limits, worktree isolation and no unapproved merge",
+    "No separately billed inference API usage"
+  ],
+  "test_commands": [],
+  "attempts": 0,
+  "last_updated": "2026-11-09",
+  "blockers": [
+    "Game source not yet exported",
+    "CLI compatibility unverified"
+  ]
+}
